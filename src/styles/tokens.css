@@ -1,0 +1,70 @@
+/* ──────────────────────────────────────────────────────────
+   TrojanCoins design tokens
+   One source of truth. Components read these, never raw values.
+   ────────────────────────────────────────────────────────── */
+:root {
+  /* Colour — base */
+  --plaster: #eef2ee;
+  --plaster-2: #e2e9e4;
+  --paper: #f8faf7;
+  --ink: #0a1f3d;
+  --ink-2: #16315a;
+  --ink-soft: #52627c;
+  --line: rgba(10, 31, 61, 0.14);
+  --line-strong: rgba(10, 31, 61, 0.32);
+  /* Colour — brand */
+  --cobalt: #1f4fe0;
+  --cobalt-deep: #1538a8;
+  --timber: #c99a5b;
+  --timber-deep: #8a5a2b;
+  --flare: #ff5a36;
+  /* Colour — semantic */
+  --up: #0f8a5f;
+  --down: #c8402a;
+  --focus: #1f4fe0;
+  /* Night (the siege) */
+  --night: #071428;
+  --night-2: #0d2145;
+  --night-line: rgba(238, 242, 238, 0.18);
+
+  /* Type */
+  --font-display: 'Bricolage Grotesque Variable', 'Arial Narrow', system-ui, sans-serif;
+  --font-text: 'Figtree Variable', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --t-xs: 0.75rem;
+  --t-sm: 0.875rem;
+  --t-md: 1rem;
+  --t-lg: 1.25rem;
+  --t-xl: 1.75rem;
+  --t-2xl: clamp(2.25rem, 4.6vw, 4rem);
+  --t-3xl: clamp(3.5rem, 8vw, 8rem);
+  --t-mega: clamp(5.5rem, 21vw, 21rem);
+
+  /* Space — 4px base */
+  --s-1: 0.25rem;
+  --s-2: 0.5rem;
+  --s-3: 0.75rem;
+  --s-4: 1rem;
+  --s-5: 1.5rem;
+  --s-6: 2rem;
+  --s-7: 3rem;
+  --s-8: 4.5rem;
+  --s-9: 7rem;
+  --gutter: clamp(1rem, 3.2vw, 3rem);
+
+  /* Radius — each tier has a job */
+  --r-chip: 6px; /* tags, inputs */
+  --r-panel: 18px; /* panels */
+  --r-pill: 999px; /* buttons, controls */
+
+  /* Elevation */
+  --lift-1: 0 1px 0 rgba(10, 31, 61, 0.08), 0 6px 16px -8px rgba(10, 31, 61, 0.28);
+  --lift-2: 0 2px 0 rgba(10, 31, 61, 0.1), 0 24px 48px -20px rgba(10, 31, 61, 0.45);
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-io: cubic-bezier(0.65, 0, 0.35, 1);
+  --d-fast: 140ms;
+  --d-base: 320ms;
+  --d-slow: 700ms;
+}
